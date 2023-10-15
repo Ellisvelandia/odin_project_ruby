@@ -13,3 +13,8 @@ puts "string" == "string"
 puts "string".object_id == "string".object_id
 
 puts :symbol.object_id == :symbol.object_id
+
+#Ruby symbols are created by placing a colon(:)before a word
+:name
+:"surprisingly, this si also a symbol"
+

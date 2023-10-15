@@ -35,6 +35,8 @@ puts "hello"[0-1]
 puts "Hello \n\nHello"
 
 #interpolation 
+# ________________
+
 # "Strings interpolation allows you to evaluate a string that contains placeholder variable
 #  This a very useful and common technique, so you will likely find  yourself using this often
 #  Be sure to use double quotes so thtat string interpolation will work"
@@ -45,6 +47,7 @@ puts "Hello, #{name}"
 puts 'Hello, #{name}'
 
 #Strings methods
+# __________________
 
 puts "hello".capitalize()
 puts "hello".include?("lo")
@@ -70,3 +73,7 @@ puts "!".prepend("hello, ", "world")
 puts 5.to_s
 puts nil.to_s
 puts :symbol.to_s
+
+# "A string is a list of characters in a specific.  in programming we often have to work with text data like
+#  names, messages , and descriptions. ruby use strings to represent such data . you write string literals with either
+#  single quotes('hi there') or double quotes"
