@@ -34,3 +34,12 @@ true                     # boolean literal
 [ 1, 2, 3 ]              # array literal
 :sym                     # symbol literal
 nil                      # nil literal
+
+#exercices
+# add tow strings togueters that , when concatenated , return your fist name and last name as your full name in one string
+
+name = "ellis crisanto"
+last_name = "velandia caicedo"
+
+puts "my full name es #{name} #{last_name}"
+
