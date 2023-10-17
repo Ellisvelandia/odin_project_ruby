@@ -70,3 +70,12 @@ a = 5             # variable is initialized in the outer scope
 end
 
 puts a
+
+# "The most important from variables for our programming  is that we can use them to store values for later."
+
+a = "supercalufragilistic"
+b = "expialidocius"
+puts "The length of the words #{a} and #{b} is: "
+puts a.length + b.length
+puts "#{a} is #{a.length - b.length} characters longer than #{b}"
+
