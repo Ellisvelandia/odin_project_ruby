@@ -40,3 +40,5 @@ elsif puts "release the shark"
 else
   puts "release K-evin the octopus"
 end
+
+#Logical operators
