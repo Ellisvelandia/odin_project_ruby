@@ -81,7 +81,43 @@ grade = "F"
 
 did_i_pass = case grade
   when "A" then "Heal yeah !"
-  when "D" then "Dont tell your mother !
+  when "D" then "Dont tell your mother"
   else "You SHALL NOT PASS! -ellis"  
 end 
-   
+
+# if need to do some more complex code manipulation , you can remove the then keyword 
+and instead place the code to be executed on the next line
+
+grade = "F"
+
+case grade
+when "A"
+  puts "You ara a genius"
+  future_bank_account_balance = 5_000_000
+when "D"
+  puts "Better luck next time"
+  can_i_retire_soon = false
+else
+  puts "YOU SHALL NOT PASS!"
+  fml = true
+end      
+
+#unless statements
+# "An unless statement works in the opposite way as an if statement: it only processes the code in the block if the expression evaluates to false , there isnt much more to it"
+
+age = 19 
+puts "Welcome to a life of debt." unless age < 18
+
+
+unless age < 18
+  puts "Get a job."
+else
+  puts "Careful now."
+end
+ 
+#you should use an unless statement when you want to not do something if a condition is true , because it can make your code more readable than using if !true
+
+#Ternary operator
+#ternary operator is a one-line if...else statement can make your code much more concise
+
+# its syntax is conditional statement ? <execute if true<> : <execute if false> 
