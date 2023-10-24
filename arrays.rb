@@ -42,7 +42,7 @@ num_array << 5
 num_array.pop
 num_array
 
-puts num_array
+# puts num_array
 
 # "the methods #shift and #unshift are used to add remove elements at the beginning of an array
 #  the #unshift method adds elements to the beginning of an array  and returns that array (much like #push)
@@ -61,3 +61,25 @@ num_array = [1, 2, 3, 4, 5, 6]
 num_array.pop(3)
 num_array.shift(2)
 num_array
+
+#Adding amd substracting arrays
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+puts a.concat(b)
+
+# Here is a brief look at some other common array methods you might run into:
+
+[].empty?               #=> true
+[[]].empty?             #=> false
+[1, 2].empty?           #=> false
+
+[1, 2, 3].length        #=> 3
+
+[1, 2, 3].reverse       #=> [3, 2, 1]
+
+[1, 2, 3].include?(3)   #=> true
+[1, 2, 3].include?("3") #=> false
+
+[1, 2, 3].join          #=> "123"
+[1, 2, 3].join("-")     #=> "1-2-3"
